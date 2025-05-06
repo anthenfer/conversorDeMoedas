@@ -19,17 +19,14 @@ Este é um projeto Java que permite ao usuário converter valores entre diferent
 ## 📂 Estrutura do Projeto
 
 conversorDeMoedas/
-├── src/
-│ ├── Main.java # Classe principal com interação via terminal
-│ ├── Conversor.java # Responsável por se comunicar com a API
-│ ├── ExchangeAPI.java # Modelo para mapear a resposta da API
-│ ├── ValidacaoDeMoedas.java # Classe auxiliar para validar moedas
-├── .gitignore
-├── README.md # Este arquivo
+├── src/  
+│ ├── Main.java # Classe principal com interação via terminal  
+│ ├── Conversor.java # Responsável por se comunicar com a API  
+│ ├── ExchangeAPI.java # Modelo para mapear a resposta da API  
+│ ├── ValidacaoDeMoedas.java # Classe auxiliar para validar moedas  
+├── .gitignore  
+├── README.md 
 
-bash
-Copiar
-Editar
 
 ## ▶️ Como Executar o Projeto
 
@@ -51,16 +48,12 @@ Cadastre-se no site.
 
 Substitua a constante CHAVE_API na classe Conversor pela sua chave pessoal:
 
-java
-Copiar
-Editar
+
 private static final String CHAVE_API = "SUA_CHAVE_AQUI";
 ⚠️ Evite expor sua chave da API publicamente.
 
 💡 Exemplo de Uso
-yaml
-Copiar
-Editar
+
 === CONVERSOR DE MOEDAS ===
 Escolha a opção desejada (1 a 10) para selecionar moeda de origem:
 1 - USD (Dólar americano)
@@ -70,6 +63,7 @@ Digite o valor a ser convertido: 100
 
 Taxa de câmbio USD -> BRL: 5.1234
 Valor convertido: 512.34 BRL
+
 🧪 Melhorias Futuras
 Interface gráfica (GUI)
 
