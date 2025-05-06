@@ -18,7 +18,7 @@ Este é um projeto Java que permite ao usuário converter valores entre diferent
 
 ## 📂 Estrutura do Projeto
 
-conversorDeMoedas/
+conversorDeMoedas/  
 ├── src/  
 │ ├── Main.java # Classe principal com interação via terminal  
 │ ├── Conversor.java # Responsável por se comunicar com a API  
@@ -50,7 +50,6 @@ Substitua a constante CHAVE_API na classe Conversor pela sua chave pessoal:
 
 
 private static final String CHAVE_API = "SUA_CHAVE_AQUI";
-⚠️ Evite expor sua chave da API publicamente.
 
 💡 Exemplo de Uso
 
